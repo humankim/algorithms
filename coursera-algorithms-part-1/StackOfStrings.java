@@ -3,7 +3,8 @@ import java.io.*;
 
 public class StackOfStrings {
     public static void main(String[] args) {
-        LinkedStackOfStrings stack = new LinkedStackOfStrings();
+        //LinkedStackOfStrings stack = new LinkedStackOfStrings();
+        FixedCapacityStackOfStrings stack = new FixedCapacityStackOfStrings();
 
         try {
         Scanner scan = new Scanner(System.in);
